@@ -10,7 +10,7 @@ const Tasks = ({ tasks, onDelete, onToggle }) => {
 
 
             {tasks.map((task, index) => (
-                <Task key={task.id} task={task} onDelete={onDelete} onToggle={onToggle} />
+                <Task key={index} task={task} onDelete={onDelete} onToggle={onToggle} />
             ))}
 
 

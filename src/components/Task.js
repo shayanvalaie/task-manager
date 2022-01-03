@@ -2,12 +2,6 @@ import { FaTimes } from 'react-icons/fa'
 
 
 const Task = ({ task, onDelete, onToggle }) => {
-    const taskStyle = () => {
-        if (task.reminder) {
-            return `task reminder`
-        }
-        return `task`
-    }
 
     return (
         <div>

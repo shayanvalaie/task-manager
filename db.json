@@ -1,22 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": 1,
-      "text": "Food Shooping",
-      "day": "Feb 5th at 230",
-      "reminder": false
-    },
-    {
-      "id": 2,
-      "text": "Dr Appt",
-      "day": "Feb 10th at 1",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Clean house",
-      "day": "Jan 25th at 230",
-      "reminder": false
-    }
-  ]
+  "tasks": []
 }
